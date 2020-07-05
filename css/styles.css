@@ -1,0 +1,168 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  font-weight: 400;
+  line-height: 3;
+  padding: 0 15%;
+  color: #8f8f8f;
+}
+
+/*--------------- containers -----------------------*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*-------------- sections -------------------*/
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+   background-color: white;
+}
+
+/*------------------ title section ----------------- */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.brandy {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.brand:hover {
+  color: black;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-item {}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.download {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  position: absolute;
+  right: 20%;
+  transform: rotate(20deg);
+}
+
+/*------------- features section------------------- */
+#features {
+
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.cont {
+  padding: 6rem 1rem 0 0;
+}
+
+.icons {
+  padding-bottom: 2.2rem;
+  font-size: 4.2rem;
+  color: #ef8172;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/* ---------------------testimonials section style-------------------------*/
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.profile-dog {
+  width: 15%;
+  border-radius: 100%;
+  margin: 1.5%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 4%;
+}
+
+.logos {
+  margin: 1.5%;
+  width: 17%;
+}
+
+/*------------------ pricing section----------------- */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+/*-------------- mobile desing ---------------------*/
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0.0);
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+
+
+
+/*---------------- footer section --------------------- */
+#footer {
+  padding: 6.5% 15%;
+}
+
+.myIcons {
+  padding: 0 1%;
+}
