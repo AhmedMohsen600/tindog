@@ -155,6 +155,11 @@ p {
   }
 }
 
+@media (min-width: 1540px) {
+  .koko{
+    padding: 0 2rem;
+  }
+}
 
 
 
